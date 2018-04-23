@@ -88,9 +88,9 @@ const Arrow = ({ direction, clickFunction, glyph }) => (
 
 const ImageSlide = ({ url }) => {
   const styles = {
-    backgroundImage: `url(${url})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center'
+    // backgroundImage: `url(${url})`,
+    // backgroundSize: 'cover',
+    // backgroundPosition: 'center'
   };
 
   return (

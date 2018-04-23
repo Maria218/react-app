@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Like} from './Button'
 import {Carousel} from './Picture'
 import {imgUrls} from './Picture'
 import {Describe} from './Caption'
@@ -44,10 +45,12 @@ class App extends Component {
             <img className = "resize" src={amazon}/>
 
             {/* Toggle by Boolean type method */}
-              <div className="todo-item" onClick={this.toggleComplete}>
+              {/* <div className="todo-item" onClick={this.toggleComplete}>
                 {this.state.complete ? completeIcon : incompleteIcon}
                 <span className="todo-item-text">{this.props.item}</span>
-              </div>
+              </div> */}
+
+              <Like />
 
           </div>
 
@@ -55,10 +58,7 @@ class App extends Component {
 
             <img className = "resize" src={guitar}/>
 
-            <div className="todo-item" onClick={this.toggleComplete}>
-              {this.state.complete ? completeIcon : incompleteIcon}
-              <span className="todo-item-text">{this.props.item}</span>
-            </div>
+            <Like />
 
           </div>
 
@@ -66,10 +66,7 @@ class App extends Component {
 
             <img className = "resize" src={keyboard}/>
 
-            <div className="todo-item" onClick={this.toggleComplete}>
-              {this.state.complete ? completeIcon : incompleteIcon}
-              <span className="todo-item-text">{this.props.item}</span>
-            </div>
+            <Like />
 
           </div>
 
@@ -77,10 +74,7 @@ class App extends Component {
 
             <img className = "resize" src={sheet}/>
 
-            <div className="todo-item" onClick={this.toggleComplete}>
-              {this.state.complete ? completeIcon : incompleteIcon}
-              <span className="todo-item-text">{this.props.item}</span>
-            </div>
+            <Like />
 
           </div>
 
@@ -88,10 +82,7 @@ class App extends Component {
 
             <img className = "resize" src={cocktails}/>
 
-            <div className="todo-item" onClick={this.toggleComplete}>
-              {this.state.complete ? completeIcon : incompleteIcon}
-              <span className="todo-item-text">{this.props.item}</span>
-            </div>
+            <Like />
 
           </div>
 
@@ -99,10 +90,7 @@ class App extends Component {
 
             <img className = "resize" src={robots}/>
 
-            <div className="todo-item" onClick={this.toggleComplete}>
-              {this.state.complete ? completeIcon : incompleteIcon}
-              <span className="todo-item-text">{this.props.item}</span>
-            </div>
+            <Like />
 
           </div>
 
